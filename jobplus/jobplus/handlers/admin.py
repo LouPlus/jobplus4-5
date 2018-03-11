@@ -3,6 +3,7 @@ from jobplus.decorators import admin_required
 from jobplus.models import User,db,Job,Company
 from jobplus.forms import RegisterForm,JobInfoForm
 from flask_login import current_user
+
 admin = Blueprint('admin', __name__, url_prefix='/admin')
 
 
